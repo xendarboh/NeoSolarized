@@ -1,8 +1,8 @@
-" Name:     NeoSolarized: Colorscheme for truecolor vim
-" Author:   iCyMind <icyminnd@gmail.com>
-" URL:      https://github.com/iCyMind/NeoSolarized
+" Name:     NeoSolarizedGray: Colorscheme for truecolor vim
+" Author:   Xendarboh <xendarboh@gmail.com>
+" URL:      https://github.com/xendarboh/NeoSolarizedGray
 " License:  MIT
-" Modified: Mon Sep 26 14:45:22 CST 2016
+" Modified: Mon Dec 31 21:21:21 UTC 2018
 
 " Usage "{{{
 "
@@ -16,6 +16,7 @@
 " is a fixed colorscheme for neovim/vim which running in truecolor supported
 " terminal.
 "
+" NeoSolarizedGray has more gray and less blue.
 " ---------------------------------------------------------------------
 " OPTIONS:
 " ---------------------------------------------------------------------
@@ -125,7 +126,7 @@ hi clear
 if exists("syntax_on")
   syntax reset
 endif
-let colors_name = "NeoSolarized"
+let colors_name = "NeoSolarizedGray"
 
 "}}}
 
